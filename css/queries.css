@@ -17,6 +17,18 @@
     }
 }
 
+@media (min-width: 992px) {
+
+  .mobile-display {display:none}
+  }
+
+  @media (max-width: 991px) {
+
+    .desktop-display {display:none}
+    }
+
+
+
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
     header {
@@ -24,9 +36,11 @@
         padding-left: 25px;
     }
 
+
     .hero .hero-content {
         padding-top: 50%;
     }
+
 
     .header-nav {
         position: fixed;
@@ -225,7 +239,7 @@
     .events .rightcol {
         padding: 0 20px;
     }
-    
+
     #eng-pics .img-wrap {
         border-radius: 0;
     }
@@ -233,7 +247,7 @@
     #map-content-wrapper {
         margin-bottom: 40px;
     }
-    
+
     #map-content {
         margin-top: 0;
         padding: 35px;
@@ -268,7 +282,7 @@
     #map-content-wrapper {
         margin-bottom: 0;
     }
-    
+
     footer ul.footer-group {
         border-top: none;
     }
@@ -295,7 +309,7 @@
     .hero .hero-content {
         padding-top: 110%;
     }
-    
+
     .hero .hero-content img {
         width: 65%;
     }
